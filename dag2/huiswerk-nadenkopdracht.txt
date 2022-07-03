@@ -1,0 +1,25 @@
+1. spelletje
+Kun je de spelbeurten en gegevens opslaan in een database?
+Eventueel: erg simpele tabel die de json string steeds 
+in een volgend record opslaat als string in 1 veld.
+Tabel
+Naam: spel
+spel_id   json_beurten
+1         {"teRaden":4,"pogingen":["5","7","3","4"]}
+2         {"teRaden":4,"pogingen":["5","7","3","4"]}
+
+Taak: json string naar database als insert (en eruit) zelfs JSON data type mogelijk (json object in sql)
+Taak: motor omzetten naar klasse (opslag, spelanalyse, resultaat naar view)
+
+2. data van internet ophalen en 'schoonmaken'
+RSS feed -> tabel 
+Kun je een bestaande klasse vinden die RSS leest en dit in een tabel plaatst?
+Kijk maar eens op: 
+github.com
+phpclasses.org
+phphulp.nl
+
+simplexml_load_file  (aanwijzen objecten en arrays in de structuur)
+
+3. Verder werken aan het spel omzetten in klassen MET een database als achtergrond.
+Kun je de opzet in lege bestanden maken met in commentaar wat de functionaliteit is. 

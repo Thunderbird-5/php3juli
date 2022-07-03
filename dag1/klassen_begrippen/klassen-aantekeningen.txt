@@ -1,0 +1,12 @@
+Korte uitleg van begrippen bij klassen en wat zaken om aan te denken. (in PHP omgevingen)
+
+Doel van klassen:
+We willen code zo goed mogelijk structureren en laten verlopen waarbij zo min mogelijk dubbel geprogrammeerd hoeft te worden.
+
+Begrippen bij klassen:
+Klasse:
+Een ding in PHP wat gegevens kan bevatten en functies. Sommige functies worden automatisch uitgevoerd (magic methods).
+
+Dingen om aan te denken:
+- scope van variabelen
+- laden en instantieren

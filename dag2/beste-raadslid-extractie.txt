@@ -1,0 +1,31 @@
+datapagina.html / (https://besteraadslid.nl/nominaties) 
+https://www.online-toolz.com/
+https://jsonformatter.org/
+https://regex101.com/
+https://www.phpclasses.org/browse/
+
+Data van website naar database overzetten/verzamelen/scrapen
+
+1. ophalen van data uit div met attribuut data-props 
+   - webpagina inlezen in variabele
+   - variabele doorzoeken/filteren (extraheren) op de data (sort van json)
+     - misschien met:
+       regex
+        pattern: /<div\s+[^<]*?data-props=[\'\"](?<value>[^<]*?)[\'\"]/g
+        demo data: <div data-component="CandidatesList" data-props="&quot;initialCandidates&quot;:{&quot;data&quot;:"
+       DOM (getattribute, hasattribute, setattribute)
+        html pagina in domdocument laden
+        uit het domdocument de elementen halen
+        van de elementen het attribuut lezen
+       strpos substr (te veel gedoe)
+       explode en array functies (te veel gedoe)
+2. htmlentities decoderen
+   - php functie voor...
+3. json decoderen of omwerken naar iets wat we graag gebruiken
+   - php functies voor...
+4. hoe kan dit naar een database
+   - eerst verbinding maken
+   - SELECT
+   - INSERT
+   - UPDATE
+   - DELETE

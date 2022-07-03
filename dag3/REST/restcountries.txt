@@ -1,0 +1,24 @@
+https://restcountries.com/v3.1/name/thenetherlands
+
+Resultaat: JSON string  / kan ook iets anders zijn.
+
+restcountries.com       : applicatie
+v3.1                    : applicatie onderdeel / module
+name                    : getter (getName?)    / methode 
+thenetherlands          : parameter
+
+v3.1 zal omgezet zijn naar de juiste module naam (jsonexport?)
+$jsonexport->name('thenetherlands') ;
+
+van https://restcountries.com/v3.1/name/thenetherlands naar onderdelen in PHP?
+
+$_SERVER['REQUEST_URI']  geeft: /v3.1/name/thenetherlands
+string naar array: explode()   => [0=>"v3.1", 1=>"name",2=>"thenetherlands"]
+
+Waarom niet:
+https://restcountries.com/v3.1.php?method=name&param=thenetherlands
+Stiekum is dat hetzelfde. Dit kan via .htaccess of webserver instellingen.
+
+https://dummyimage.com/600x400/000/fff
+Resultaat: png
+https://dummyimage.com/600x400/b87bb8/fff.gif&text=hallo+json
