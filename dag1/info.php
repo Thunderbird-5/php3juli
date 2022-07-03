@@ -1,5 +1,2 @@
 <?php
 phpinfo() ;
-/**
- * Sort of
- */
