@@ -12,12 +12,27 @@ Taak: json string naar database als insert (en eruit) zelfs JSON data type mogel
 Taak: motor omzetten naar klasse (opslag, spelanalyse, resultaat naar view)
 
 2. data van internet ophalen en 'schoonmaken'
-RSS feed -> tabel 
+Bijvoorbeeld een RSS feed -> tabel in database
 Kun je een bestaande klasse vinden die RSS leest en dit in een tabel plaatst?
 Kijk maar eens op: 
 github.com
 phpclasses.org
 phphulp.nl
+
+Grote vrije databronnen:
+https://www.rijksoverheid.nl/opendata
+https://dataportal.cbs.nl/
+https://ec.europa.eu/eurostat
+https://w3.unece.org/PXWeb/en
+
+Of! Probeer de verschillende agenda's van Rotterdam samen te voegen! 
+Kun je er een (iCal) kalender (bestand) van maken?
+Databronnen:
+https://www.evenementeninrotterdam.nl/gebieden/
+https://www.uitagendarotterdam.nl/agenda#!/what=alles/where=heel_rotterdam
+https://www.rotterdamfestivals.nl/agenda/
+https://www.rotterdam.nl/wonen-leven/markten/
+https://rotterdamonderweg.nl/omleidingen
 
 simplexml_load_file  (aanwijzen objecten en arrays in de structuur)
 
