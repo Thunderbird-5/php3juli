@@ -1,0 +1,40 @@
+1. spelletje
+Kun je de spelbeurten en gegevens opslaan in een database?
+Eventueel: erg simpele tabel die de json string steeds 
+in een volgend record opslaat als string in 1 veld.
+Tabel
+Naam: spel
+spel_id   json_beurten
+1         {"teRaden":4,"pogingen":["5","7","3","4"]}
+2         {"teRaden":4,"pogingen":["5","7","3","4"]}
+
+Taak: json string naar database als insert (en eruit) zelfs JSON data type mogelijk (json object in sql)
+Taak: motor omzetten naar klasse (opslag, spelanalyse, resultaat naar view)
+
+2. data van internet ophalen en 'schoonmaken'
+Bijvoorbeeld een RSS feed -> tabel in database
+Kun je een bestaande klasse vinden die RSS leest en dit in een tabel plaatst?
+Kijk maar eens op: 
+github.com
+phpclasses.org
+phphulp.nl
+
+Grote vrije databronnen:
+https://www.rijksoverheid.nl/opendata
+https://dataportal.cbs.nl/
+https://ec.europa.eu/eurostat
+https://w3.unece.org/PXWeb/en
+
+Of! Probeer de verschillende agenda's van Rotterdam samen te voegen! 
+Kun je er een (iCal) kalender (bestand) van maken?
+Databronnen:
+https://www.evenementeninrotterdam.nl/gebieden/
+https://www.uitagendarotterdam.nl/agenda#!/what=alles/where=heel_rotterdam
+https://www.rotterdamfestivals.nl/agenda/
+https://www.rotterdam.nl/wonen-leven/markten/
+https://rotterdamonderweg.nl/omleidingen
+
+simplexml_load_file  (aanwijzen objecten en arrays in de structuur)
+
+3. Verder werken aan het spel omzetten in klassen MET een database als achtergrond.
+Kun je de opzet in lege bestanden maken met in commentaar wat de functionaliteit is. 

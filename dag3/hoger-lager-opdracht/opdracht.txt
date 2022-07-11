@@ -1,0 +1,31 @@
+# een spelletje Hoger-Lager (raden van een getal)
+# programma (functionaliteit)
+# interface (voorkant, hoe ziet het er uit)
+/*
+1. intro-uitleg-welkom- eerste pagina
+   - alles in de beginstand
+   - interface wordt getoond
+2. er moet een getal worden doorgegeven. (hoe doen we dat?)
+   - klikken (links)
+   - invullen (formulier) -> verzenden (GET / POST)
+   - rechtreeks in de adresbalk (url)
+3. programma gaat kijken of het doorgegeven getal hoger of lager is
+   - vergelijken
+   - resultaat naar de bezoeker sturen
+   - startpositie voor het getal weer door te geven
+    OF
+     mogelijkheid om opnieuw te beginnen
+*/
+bestanden:
+- variabelen.php (init.php / index.php)
+- functions.php (klassen)
+- frontend.html (template)
+- stijl.css (hier niet nodig)
+- script.js (hier niet nodig)
+
+
+Probeer te ontwerpen:
+Voor het spel hoger-lager
+Het template bestand
+Het bestand met de klas(sen)
+  In de klas(sen) de namen, properties, methoden
